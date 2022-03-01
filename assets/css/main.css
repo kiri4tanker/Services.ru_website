@@ -215,7 +215,7 @@ small {
 }
 /* section */
 .section {
-   padding: 100px 0;
+   padding: 110px 0;
 }
 /* section primary */
 .search_primary .section__heading .btn {
@@ -224,9 +224,8 @@ small {
 /* section search */
 .section_background {
    color: #FFFFFF;
-   background-size: cover;
-   background-position: center;
-   background-attachment: fixed;
+   background-size: cover !important;
+   background-position: center !important;
 }
 .section__fullscreen {
    width: 100vw;
@@ -236,21 +235,25 @@ small {
 }
 .search-form {
    display: flex;
+   width: 400px;
    align-items: center;
    background: #FFFFFF;
-   max-width: 350px;
    border: 1px solid var(--border-color);
    border-radius: 10px;
    margin: 0 auto;
 }
 .search-form__input {
-   padding: 15px 15px 15px 15px;
+   height: 31px;
+   flex-grow: 1;
+   padding: 5px;
 }
 .search-form__btn {
    width: 31px;
    height: 31px;
    background: var(--accent-color);
    border-radius: 16px;
+   margin: 5px;
+   line-height: 0;
 }
 .search-form__btn:hover {
    background-color: var(--accent-color-hover);
