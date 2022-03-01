@@ -213,6 +213,7 @@ small {
 }
 /* section */
 .section {
+   padding: 100px 0;
 }
 .section_vertical {
 }
