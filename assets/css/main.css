@@ -141,12 +141,7 @@ small {
 }
 /* container */
 .container {
-   max-width: 1230px;
-   margin: 0 auto;
-   padding: 0 calc(var(--gutter)/2);
-}
-.container__horizontal {
-   max-width: 810px;
+   max-width: 820px;
    margin: 0 auto;
    padding: 0 calc(var(--gutter)/2);
 }

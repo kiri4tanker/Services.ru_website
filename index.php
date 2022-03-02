@@ -2,7 +2,7 @@
    <main class="main">
       <!-- Search section -->
       <section style="background-image: url(/assets/images/search-bg.jpg)" class="section section_secondary section_background section__fullscreen">
-         <div class="container"> 
+         <div class="container">    
             <div class="section__heading">
                <h1 class="section__title">Для любой задачи есть специалист</h2>
                <p class="section__subtitle">Поможем найти надежного исполнителя для любых задач.</p>
@@ -13,22 +13,56 @@
                   <button class="search-form__btn"><ion-icon name="arrow-forward-outline"></ion-icon></button>
                </form>
             </div>
-         </div>
+         </div>     
       </section>
       <!-- Services section -->
       <section class="section search_primary">
          <div class="container">
+            <div class="section__heading">
+               <h2 class="section__title">Наши услуги</h2>
+               <button class="btn">Читать далее</button>
+            </div>
             <div class="section__content">
-               <div class="section__heading">
-                  <h2 class="section__title">Наши услуги</h2>
-                  <button class="btn">Читать далее</button>
+               <div class="services">
+                  <div class="service">
+                     <img src="" alt="" class="service__img">
+                     <p class="service__text">Уборка</p>
+                  </div>
+                  <div class="service">
+                     <img src="" alt="" class="service__img">
+                     <p class="service__text">Электрика</p>
+                  </div>
+                  <div class="service">
+                     <img src="" alt="" class="service__img">
+                     <p class="service__text">Тренировки</p>
+                  </div>
+                  <div class="service">
+                     <img src="" alt="" class="service__img">
+                     <p class="service__text">Перевозка вещей</p>
+                  </div>
+                  <div class="service">
+                     <img src="" alt="" class="service__img">
+                     <p class="service__text">Юристы</p>
+                  </div>
+                  <div class="service">
+                     <img src="" alt="" class="service__img">
+                     <p class="service__text">Дизайнеры</p>
+                  </div>
+                  <div class="service">
+                     <img src="" alt="" class="service__img">
+                     <p class="service__text">Репетиторство</p>
+                  </div>
+                  <div class="service">
+                     <img src="" alt="" class="service__img">
+                     <p class="service__text">Психологи</p>
+                  </div>
                </div>
             </div>
-         </div>   
+         </div>    
       </section>
       <!-- About us section -->
       <section class="section section_secondary">
-         <div class="container__horizontal">
+         <div class="container">
             <div class="section__heading">
                <h2 class="section__title">О сервисе</h2>
             </div>
@@ -39,9 +73,9 @@
                </div>
                <div class="section__img">
                   <img src="/assets/images/about-us.png" alt="about-us-img">
-               </div>  
-            </div>
-         </div> 
-      </section>
+               </div>
+            </div> 
+         </div>
+      </section> 
    </main>
 <?php require_once('include/footer.php') ?>
