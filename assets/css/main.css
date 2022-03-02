@@ -115,7 +115,6 @@ strong {
 }
 small {
    font-size: var(--small-size);
-   font-weight: 500;
 }
 /* inline */
 .inline {
@@ -343,7 +342,40 @@ textarea.input {
 .feedback__img {
    width: 330px;
 }
+/* reason */
+.reason {
+   display: grid;
+   justify-items: center;
+   gap: 10px;
+   padding: 15px;
+   background: #FFFFFF;
+   border-radius: var(--round);
+   height: 100%;
+   text-align: center;
+}
+.reason .reason__img {
+   width: 120px;
+}
 /* icons */
 ion-icon {
    color: #FFFFFF;
+}
+/* swiper */
+.swiper {
+   height: 270px;
+}
+.swiper-custom-pagination {
+   margin: 0 auto;
+   margin-top: 20px;
+   width: max-content !important;
+}
+.swiper-pagination-bullet {
+   width: 15px;
+   height: 15px;
+   opacity: 1;
+   background: rgba(0, 0, 0, 0.15);
+}
+.swiper-pagination-bullet-active {
+   color: #fff;
+   background: var(--accent-color);
 }
