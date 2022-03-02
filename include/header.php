@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="assets/css/main.css">
-   <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+   <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" type="image/x-icon">
    <title>Услуги.ру</title>
 </head>
    <!-- Start of Header -->
@@ -12,7 +12,7 @@
       <div class="container">
          <div class="header__content">
             <a class="logo" href="index.php">
-               <img src="assets/images/header__logo.svg" alt="LOGO">
+               <img src="assets/images/logo/header__logo.svg" alt="LOGO">
             </a>
             <nav class="nav">
                <ul class="nav__menu">

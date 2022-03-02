@@ -3,7 +3,7 @@
       <div class="container">
          <div class="footer__content">
             <a class="logo" href="#">
-               <img src="assets/images/footer__logo.svg" alt="LOGO">
+               <img src="assets/images/logo/footer__logo.svg" alt="LOGO">
             </a>
             <nav class="nav">
                <ul class="nav__menu">
