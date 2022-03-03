@@ -97,6 +97,7 @@ input, textarea {
 }
 h1, h2, h3, h4, h5, h6 {
    line-height: var(--line-height-sm);
+   display: block;
 }
 h1 {
    font-weight: 700;
@@ -207,6 +208,11 @@ small {
 }
 .section .section__title {
    margin-bottom: 15px;
+}
+.section__heading_grid {
+   display: grid;
+   justify-items: start;
+   gap: 10px;
 }
 /* section primary */
 .search_primary .section__heading .btn {
