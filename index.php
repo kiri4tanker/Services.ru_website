@@ -1,4 +1,5 @@
 <?php require_once('include/header.php') ?>
+   <!-- Start of Main -->
    <main class="main">
       <!-- Search section -->
       <section style="background-image: url(/assets/images/bg/search-bg.jpg)" class="section section_secondary section_background">

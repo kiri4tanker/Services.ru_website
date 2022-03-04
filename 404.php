@@ -1,4 +1,5 @@
 <?php require_once('include/header.php') ?>
+   <!-- Start of Main -->
    <main class="main">
       <section class="section section_primary">
          <div class="container">
