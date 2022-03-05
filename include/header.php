@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,7 @@
    <link rel="stylesheet" href="assets/css/main.css">
    <title>Услуги.ру</title>
 </head>
+<body>
    <!-- Start of Header -->
    <header class="header">
       <div class="container">
@@ -32,10 +33,11 @@
                </ul>
             </nav>
             <div class="inline">
-               <button class="btn"><ion-icon name="person-outline"></ion-icon>Войти</button>
+               <a href="login.php" class="btn">
+                  <ion-icon name="person-outline"></ion-icon>Войти
+               </a>
                <button class="btn"><ion-icon name="build-outline"></ion-icon></button>
             </div>
          </div> 
       </div>
    </header>
-<body>

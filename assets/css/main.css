@@ -155,11 +155,13 @@ small {
    gap: 15px;
 }
 .nav__link:hover {
-   color: var(--accent-color-hover);
+color: var(--accent-color-hover);
 }
 /* btn */
 .btn {
-   display: block;
+   line-height: 1;
+   display: flex;
+   gap: 5px;
    color: #FFFFFF;
    background: var(--accent-color);
    border-radius: var(--round-sm);
@@ -372,11 +374,13 @@ textarea.input {
 .login__form {
    display: grid;
    gap: var(--gutter);
-   justify-content: start;
    border: 1px solid var(--border-color);
    padding: 20px;
    box-shadow: var(--shadow);
    border-radius: var(--round-lg);
+}
+.login__form .btn {
+   justify-self: start;
 }
 .login__img {
    width: 411px;
@@ -391,7 +395,6 @@ textarea.input {
 .register__form {
    display: grid;
    gap: var(--gutter);
-   justify-content: start;
    border: 1px solid var(--border-color);
    padding: 20px;
    box-shadow: var(--shadow);
@@ -399,6 +402,9 @@ textarea.input {
 }
 .register__img {
    width: 417px;
+}
+.register__form .btn {
+   justify-self: start;
 }
 /* reason */
 .reason {
