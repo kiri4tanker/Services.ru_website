@@ -1,6 +1,7 @@
 <?php require_once('include/header.php') ?>
    <!-- Start of Main -->
    <main class="main">
+      <!-- Section contacts -->
       <section class="section">
          <div class="container">
             <div class="section__wrapper">
