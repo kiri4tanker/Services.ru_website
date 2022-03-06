@@ -271,7 +271,7 @@ color: var(--accent-color-hover);
    text-align: center;
 }
 /* about-us */
-.about-us__text {
+.about-us__content {
    display: grid;
    gap: 10px;
    justify-items: start;
@@ -284,6 +284,9 @@ color: var(--accent-color-hover);
 }
 .about-us__img {
    width: 320px;
+}
+.about-us__text_muted {
+   color: var(--text-muted-color);
 }
 /* services */
 .services {
@@ -313,6 +316,7 @@ color: var(--accent-color-hover);
 .stats__text {
    color: var(--text-muted-color);  
 }
+/* services popular */
 .service_popular {
    background: var(--item-color);
    padding: 10px;

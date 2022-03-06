@@ -24,7 +24,7 @@
             <div class="section__wrapper">
                <div class="section__heading">
                   <h2 class="section__title">Наши услуги</h2>
-                  <button class="btn">Посмотреть все</button>
+                  <a href="services.php" class="btn">Посмотреть все</a>
                </div>
                <div class="section__content">
                   <div class="services">
@@ -74,9 +74,9 @@
                </div>
                <div class="section__content">
                   <div class="about-us">
-                     <div class="about-us__text">
-                        <p>Услуги.ру — это сервис, который помогает клиентам и специалистам встретиться. Клиенты находят здесь профессионалов для решения любых задач — репетиторов, автоинструкторов, сантехников, парикмахеров.<br>А специалисты, в свою очередь, быстро находят клиентов, ведь с помощью сайта можно в один клик организовать свой бизнес на дому без вложений.</p>
-                        <button class="btn">Читать далее</button>
+                     <div class="about-us__content">
+                        <p class="about-us__text">Услуги.ру — это сервис, который помогает клиентам и специалистам встретиться. Клиенты находят здесь профессионалов для решения любых задач — репетиторов, автоинструкторов, сантехников, парикмахеров.<br>А специалисты, в свою очередь, быстро находят клиентов, ведь с помощью сайта можно в один клик организовать свой бизнес на дому без вложений.</p>
+                        <a href="about-us.php" class="btn">Читать далее</a>
                      </div>
                      <div class="about-us__img">
                         <img src="/assets/images/section-img/about-us.png" alt="about-us-img">
@@ -172,7 +172,7 @@
             <div class="section__wrapper">
                <div class="section__heading">
                   <h2 class="section__title">Популярные услуги</h2>
-                  <button class="btn">Посмотреть все</button>
+                  <a href="services.php" class="btn">Посмотреть все</a>
                </div>
                <div class="section__content">
                   <div class="services">
