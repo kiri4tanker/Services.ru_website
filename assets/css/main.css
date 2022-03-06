@@ -166,6 +166,7 @@ color: var(--accent-color-hover);
    background: var(--accent-color);
    border-radius: var(--round-sm);
    padding: 10px 15px;
+   display: inline-flex;
 }
 .btn:hover {
    background: var(--accent-color-hover);
