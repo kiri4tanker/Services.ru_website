@@ -326,6 +326,20 @@ color: var(--accent-color-hover);
 .service_popular .service__img {
    height: 45px;
 }
+/* contacts */
+.contacts {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+.contacts__text {
+   color: var(--text-muted-color);
+}
+.contacts__text {
+   color: var(--text-muted-color);
+}
+.contact {
+   margin-bottom: 20px;
+}
 /* input */
 .input {
    background: #FFFFFF;
