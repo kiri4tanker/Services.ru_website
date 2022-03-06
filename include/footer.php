@@ -8,16 +8,16 @@
             <nav class="nav">
                <ul class="nav__menu">
                   <li class="nav__item">
-                     <a class="nav__link" href="#">Главная</a>
+                     <a class="nav__link" href="index.php">Главная</a>
                   </li>
                   <li class="nav__item">
-                     <a class="nav__link" href="#">Услуги</a>
+                     <a class="nav__link" href="services.php">Услуги</a>
                   </li>
                   <li class="nav__item">
-                     <a class="nav__link" href="#">О сервисе</a>
+                     <a class="nav__link" href="about-us.php">О сервисе</a>
                   </li>
                   <li class="nav__item">
-                     <a class="nav__link" href="#">Контакты</a>
+                     <a class="nav__link" href="contacts.php">Контакты</a>
                   </li>
                </ul>
             </nav>
