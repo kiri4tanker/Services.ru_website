@@ -29,36 +29,52 @@
                <div class="section__content">
                   <div class="services">
                      <div class="service">
-                        <img src="assets/images/services/1.png" alt="" class="service__img">
-                        <p class="service__text">Уборка</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/1.png" alt="" class="service__img">
+                           <p class="service__text">Уборка</p>
+                        </a>
                      </div>
                      <div class="service">
-                        <img src="assets/images/services/2.png" alt="" class="service__img">
-                        <p class="service__text">Электрика</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/2.png" alt="" class="service__img">
+                           <p class="service__text">Электрика</p>
+                        </a>
                      </div>
                      <div class="service">
-                        <img src="assets/images/services/3.png" alt="" class="service__img">
-                        <p class="service__text">Тренировки</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/3.png" alt="" class="service__img">
+                           <p class="service__text">Тренировки</p>
+                        </a>
                      </div>
                      <div class="service">
-                        <img src="assets/images/services/4.png" alt="" class="service__img">
-                        <p class="service__text">Перевозка вещей</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/4.png" alt="" class="service__img">
+                           <p class="service__text">Перевозка вещей</p>
+                        </a>
                      </div>
                      <div class="service">
-                        <img src="assets/images/services/5.png" alt="" class="service__img">
-                        <p class="service__text">Юристы</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/5.png" alt="" class="service__img">
+                           <p class="service__text">Юристы</p>
+                        </a>
                      </div>
                      <div class="service">
-                        <img src="assets/images/services/6.png" alt="" class="service__img">
-                        <p class="service__text">Дизайнеры</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/6.png" alt="" class="service__img">
+                           <p class="service__text">Дизайнеры</p>
+                        </a>
                      </div>
                      <div class="service">
-                        <img src="assets/images/services/7.png" alt="" class="service__img">
-                        <p class="service__text">Репетиторство</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/7.png" alt="" class="service__img">
+                           <p class="service__text">Репетиторство</p>
+                        </a>
                      </div>
                      <div class="service">
-                        <img src="assets/images/services/8.png" alt="" class="service__img">
-                        <p class="service__text">Психологи</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/8.png" alt="" class="service__img">
+                           <p class="service__text">Психологи</p>
+                        </a>
                      </div>
                   </div> 
                </div>
@@ -177,36 +193,52 @@
                <div class="section__content">
                   <div class="services">
                      <div class="service service_popular">
-                        <img src="assets/images/services/1.png" alt="" class="service__img">
-                        <p class="service__text">Уборка</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/1.png" alt="" class="service__img">
+                           <p class="service__text">Уборка</p>
+                        </a>
                      </div>
                      <div class="service service_popular">
-                        <img src="assets/images/services/9.png" alt="" class="service__img">
-                        <p class="service__text">Электрика</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/9.png" alt="" class="service__img">
+                           <p class="service__text">Электрика</p>
+                        </a>
                      </div>
                      <div class="service service_popular">
-                        <img src="assets/images/services/10.png" alt="" class="service__img">
-                        <p class="service__text">Тренировки</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/10.png" alt="" class="service__img">
+                           <p class="service__text">Тренировки</p>
+                        </a>
                      </div>
                      <div class="service service_popular">
-                        <img src="assets/images/services/11.png" alt="" class="service__img">
-                        <p class="service__text">Перевозка вещей</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/11.png" alt="" class="service__img">
+                           <p class="service__text">Перевозка вещей</p>
+                        </a>
                      </div>
                      <div class="service service_popular">
-                        <img src="assets/images/services/12.png" alt="" class="service__img">
-                        <p class="service__text">Юристы</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/12.png" alt="" class="service__img">
+                           <p class="service__text">Юристы</p>
+                        </a>
                      </div>
                      <div class="service service_popular">
-                        <img src="assets/images/services/13.png" alt="" class="service__img">
-                        <p class="service__text">Дизайнеры</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/13.png" alt="" class="service__img">
+                           <p class="service__text">Дизайнеры</p>
+                        </a>
                      </div>
                      <div class="service service_popular">
-                        <img src="assets/images/services/14.png" alt="" class="service__img">
-                        <p class="service__text">Репетиторство</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/14.png" alt="" class="service__img">
+                           <p class="service__text">Репетиторство</p>
+                        </a>
                      </div>
                      <div class="service service_popular">
-                        <img src="assets/images/services/15.png" alt="" class="service__img">
-                        <p class="service__text">Психологи</p>
+                        <a href="#" class="service__card">
+                           <img src="assets/images/services/15.png" alt="" class="service__img">
+                           <p class="service__text">Психологи</p>
+                        </a>
                      </div>
                   </div> 
                </div>
