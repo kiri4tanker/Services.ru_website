@@ -8,7 +8,7 @@
                   <h1 class="section__title">Ошибка 404</h1>
                   <strong>Кажется, Вы потерялись!</strong>
                   <p class="section__subtitle">Постарайтесь вернуться на рабочую страницу, а то Вас заждались дома, конечно, если есть кому ждать...</p>
-                  <button class="btn">На главную</button>
+                  <a href="index.php" class="btn">На главную</a>
                </div>
                <div class="section__content">
                   <img src="assets/images/section-img/404.png" alt="404-img" class="section__img">
