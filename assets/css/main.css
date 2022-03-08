@@ -82,6 +82,10 @@ input, textarea, button {
 	outline: none;
 }
 /* styles */
+::selection {
+   background: var(--accent-color);
+   color: #fff;
+}
 body {
    min-width: 320px;
    display: flex;
@@ -343,9 +347,6 @@ img {
 .about-us__img {
    width: 320px;
 }
-.about-us__text_muted {
-   color: var(--text-muted-color);
-}
 /* services */
 .services {
    display: grid;
@@ -448,6 +449,8 @@ textarea.input {
    gap: var(--gutter);
 }
 .login__form {
+   height: 100%;
+   align-content: center;
    display: grid;
    gap: var(--gutter);
    border: 1px solid var(--border-color);
@@ -459,7 +462,7 @@ textarea.input {
    justify-self: start;
 }
 .login__img {
-   width: 411px;
+   width: 410px;
 }
 /* register */
 .register {
@@ -540,4 +543,22 @@ ion-icon {
 }
 .hamburger.active .hamburger__line:nth-child(2) {
    transform: translateY(calc(-200% + 0.5px)) rotate(-45deg);
+}
+/* error */
+.error {
+   display: grid;
+   gap: var(--gutter);
+   grid-template-columns: 1fr auto;
+   align-items: center;
+}
+.error .section__title {
+   margin-bottom: 0;
+}
+.error__content {
+   display: grid;
+   justify-items: start;
+   gap: 10px;
+}
+.error__img {
+   width: 260px;
 }
