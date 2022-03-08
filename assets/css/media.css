@@ -1,0 +1,34 @@
+/* === desktop first === */
+/* from xl to xxl */
+@media (max-width: 1400px) {
+
+}
+
+/* from lg to xl */
+
+@media (max-width: 1200px) {
+
+}
+
+/* from md to lg */
+
+@media (max-width: 992px) {	
+	.hamburger__menu {
+      display: flex;
+   }
+   .nav__menu {
+      display: none;
+   }
+}
+
+/* from sm to md */
+
+@media (max-width: 768px) {
+	
+}
+
+/* from xs to sm */
+
+@media (max-width: 576px) {
+	
+}

@@ -6,6 +6,7 @@
    <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" type="image/x-icon">
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   <link rel="stylesheet" href="assets/css/media.css">
    <title>Услуги.ру</title>
 </head>
 <body>
@@ -38,6 +39,18 @@
                </a>
                <button class="btn"><ion-icon name="build-outline"></ion-icon></button>
             </div>
-         </div> 
+         </div>
+         <div class="hamburger__menu">
+               <input class="input_hidden" id="menu__toggle" type="checkbox">
+               <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+               </label>
+               <ul class="menu__box">
+                  <li><a class="menu__item" href="index.php">Главная</a></li>
+                  <li><a class="menu__item" href="services.php">Услуги</a></li>
+                  <li><a class="menu__item" href="about-us.php">О сервисе</a></li>
+                  <li><a class="menu__item" href="contacts.php">Контакты</a></li>
+               </ul>
+            </div> 
       </div>
    </header>
