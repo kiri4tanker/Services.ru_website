@@ -362,8 +362,8 @@ img {
 .stats__item {
    background: var(--item-color);
    text-align: center;
-   padding: 10px;
    border-radius: var(--round);
+   padding: 20px 10px;
 }
 .stats__text {
    color: var(--text-muted-color);  
