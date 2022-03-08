@@ -167,6 +167,9 @@ img {
    display: flex;
    gap: 15px;
 }
+.nav__link {
+   transition: color var(--time);
+}
 .nav__link:hover {
    color: var(--accent-color-hover);
 }
@@ -200,6 +203,8 @@ img {
    border-radius: var(--round-sm);
    padding: 10px 15px;
    display: inline-flex;
+   cursor: pointer;
+   transition: background var(--time);
 }
 .btn:hover {
    background: var(--accent-color-hover);
@@ -305,6 +310,7 @@ img {
    border-radius: 16px;
    margin: 5px;
    line-height: 0;
+   cursor: pointer;
 }
 .search-form__btn:hover {
    background-color: var(--accent-color-hover);
