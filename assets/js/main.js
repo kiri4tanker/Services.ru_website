@@ -1,3 +1,5 @@
+// reasons slider
+
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   loop: true,
@@ -45,3 +47,13 @@ const swiper = new Swiper('.swiper', {
     }
   }
  });
+
+// mobile menu
+
+const hamburger = document.querySelector('.header .hamburger');
+const headerBottom = document.querySelector('.header__bottom');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  headerBottom.classList.toggle('active');
+});

@@ -14,6 +14,10 @@
    <header class="header">
       <div class="container">
          <div class="header__content">
+            <button class="hamburger">
+               <span class="hamburger__line"></span>
+               <span class="hamburger__line"></span>
+            </button>
             <a class="logo" href="index.php">
                <img src="assets/images/logo/header__logo.svg" alt="LOGO">
             </a>
@@ -39,6 +43,24 @@
                </a>
                <button class="btn"><ion-icon name="build-outline"></ion-icon></button>
             </div>
+         </div>
+         <div class="header__bottom">
+            <nav class="mobile-nav">
+               <ul class="mobile-nav__menu">
+                  <li class="mobile-nav__item">
+                     <a class="mobile-nav__link active" href="index.php">Главная</a>
+                  </li>
+                  <li class="mobile-nav__item">
+                     <a class="mobile-nav__link" href="services.php">Услуги</a>
+                  </li>
+                  <li class="mobile-nav__item">
+                     <a class="mobile-nav__link" href="about-us.php">О сервисе</a>
+                  </li>
+                  <li class="mobile-nav__item">
+                     <a class="mobile-nav__link" href="contacts.php">Контакты</a>
+                  </li>
+               </ul>
+            </nav>
          </div>
       </div>
    </header>

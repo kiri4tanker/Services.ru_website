@@ -8,7 +8,7 @@
             <nav class="nav">
                <ul class="nav__menu">
                   <li class="nav__item">
-                     <a class="nav__link" href="index.php">Главная</a>
+                     <a class="nav__link active" href="index.php">Главная</a>
                   </li>
                   <li class="nav__item">
                      <a class="nav__link" href="services.php">Услуги</a>
