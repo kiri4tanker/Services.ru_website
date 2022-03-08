@@ -66,4 +66,7 @@
    .feedback__img {
       display: none;
    }
+   .footer__line {
+      width: 100%;
+   }
 }

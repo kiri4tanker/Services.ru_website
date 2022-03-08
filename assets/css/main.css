@@ -83,6 +83,7 @@ input, textarea, button {
 }
 /* styles */
 body {
+   min-width: 320px;
    display: flex;
    flex-direction: column;
    min-height: 100vh;
@@ -181,9 +182,15 @@ color: var(--accent-color-hover);
    padding: 25px 0;
    background: var(--footer-color);
 }
-.footer .logo { grid-area: footer-logo; }
+.footer .logo { 
+   grid-area: footer-logo;
+   justify-self: start; 
+}
 .footer .nav { grid-area: footer-nav;}
-.footer .footer__feedback { grid-area: footer-feedback; }
+.footer .footer__feedback { 
+   grid-area: footer-feedback;
+   justify-self: end; 
+}
 .footer .footer__line { grid-area: footer-line; }
 .footer .footer__copyright { grid-area: footer-copyright; }
 .footer__wrapper {
@@ -203,8 +210,8 @@ color: var(--accent-color-hover);
    background: #FFFFFF;
    opacity: 15%;
    height: 1px;
-   width: 500px;
    max-width: 100%;
+   width: 500px;
 }
 /* copyright */
 .text-muted {
@@ -248,6 +255,7 @@ color: var(--accent-color-hover);
    color: #FFFFFF;
 }
 .search-form {
+   max-width: 100%;
    display: flex;
    width: 400px;
    align-items: center;
