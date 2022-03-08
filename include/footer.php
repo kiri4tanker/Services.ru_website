@@ -1,7 +1,7 @@
    <!-- Start of Footer -->
    <footer class="footer">
       <div class="container">
-         <div class="footer__content">
+         <div class="footer__wrapper">
             <a class="logo" href="#">
                <img src="assets/images/logo/footer__logo.svg" alt="LOGO">
             </a>
@@ -21,11 +21,9 @@
                   </li>
                </ul>
             </nav>
-            <button class="btn"><ion-icon name="build-outline"></ion-icon></button>
-         </div>
-         <div class="footer__line"></div>
-         <div class="footer__bottom">
-               <p class="text-muted">© ООО "Услуги.ру" Все права защищены 2022</p>
+            <button class="footer__feedback btn"><ion-icon name="build-outline"></ion-icon></button>
+            <div class="footer__line"></div>
+            <p class="footer__copyright text-muted">© ООО "Услуги.ру" Все права защищены 2022</p>
          </div>
       </div>
    </footer>
