@@ -20,10 +20,10 @@
       justify-items: center;
    }
    .section_primary .section__wrapper {
-      flex-direction: column;
+      grid-template-columns: 1fr;
+      justify-items: center;
    }
    .section_primary .section__heading {
-      margin-bottom: 50px;
       text-align: center;
    }
    .login__img {
@@ -32,6 +32,9 @@
 }
 /* from sm to md */
 @media (max-width: 768px) {
+   .header {
+      padding: 15px 0;
+   }
    .header .nav__menu {
       display: none;
    }
@@ -124,5 +127,10 @@
    }
    .header__bottom {
       display: none !important;
+   }
+}
+@media (min-width: 992px) {
+   .section_primary .section__heading {
+      max-width: 360px;
    }
 }

@@ -260,10 +260,11 @@ img {
    padding: 110px 0;
 }
 .section_primary .section__wrapper {
-   display: flex;
-   flex-wrap: wrap;
-   gap: var(--gutter);
+   display: grid;
+   grid-template-columns: auto 1fr;
    align-items: center;
+   column-gap: var(--gutter);
+   row-gap: 50px;
 }
 .section .section__subtitle {
    color: var(--text-muted-color);
