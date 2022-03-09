@@ -22,7 +22,7 @@
                   </li>
                </ul>
             </nav>
-            <button class="footer__feedback btn" data-micromodal-trigger="feedback"><ion-icon name="build-outline"></ion-icon></button>
+            <button class="footer__feedback btn" data-micromodal-trigger="modal-feedback"><ion-icon name="build-outline"></ion-icon></button>
             <div class="footer__line"></div>
             <p class="footer__copyright text-muted">© ООО "Услуги.ру" Все права защищены 2022</p>
          </div>

@@ -562,3 +562,59 @@ ion-icon {
 .error__img {
    width: 260px;
 }
+/* modal */
+.modal {
+   z-index: 3;
+}
+.modal.is-open .modal__overlay {
+   opacity: 1;
+   pointer-events: all;
+}
+.modal.is-open .modal__container {
+   opacity: 1;
+   transform: translateY(0);
+}
+.modal__overlay {
+   opacity: 0;
+   pointer-events: none;
+   transition: opacity var(--time);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: var(--overlay);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.modal__container {
+   opacity: 0;
+   transform: translateY(-40px);
+   transition: opacity var(--time), transform var(--time);
+   background: #fff;
+   padding: 20px;
+   width: 660px;
+   max-height: 100vh;
+   border-radius: var(--round);
+   overflow-y: auto;
+}
+.modal__header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.modal__close {
+   background: transparent;
+   border: none;
+}
+.modal__header .modal__close:before { content: "\2715"; }
+.modal__content {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   color: var(--text-color);
+}
+.modal__title {
+   text-align: center;
+   flex-grow: 1;
+}

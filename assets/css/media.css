@@ -70,6 +70,9 @@
    .contacts {
       grid-template-columns: 1fr;
    }
+   .modal__container {
+      width: calc(100% - var(--gutter) * 2);
+   }
 }
 /* from xs to sm */
 @media (max-width: 576px) {
