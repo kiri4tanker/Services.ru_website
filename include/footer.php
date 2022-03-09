@@ -1,3 +1,4 @@
+   <?php require_once('include/feedback.php') ?>
    <!-- Start of Footer -->
    <footer class="footer">
       <div class="container">
@@ -21,7 +22,7 @@
                   </li>
                </ul>
             </nav>
-            <button class="footer__feedback btn"><ion-icon name="build-outline"></ion-icon></button>
+            <button class="footer__feedback btn" data-micromodal-trigger="feedback"><ion-icon name="build-outline"></ion-icon></button>
             <div class="footer__line"></div>
             <p class="footer__copyright text-muted">© ООО "Услуги.ру" Все права защищены 2022</p>
          </div>
@@ -30,6 +31,7 @@
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
    <script src="assets/js/main.js"></script>
 </body>
 </html> 

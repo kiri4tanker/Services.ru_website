@@ -57,3 +57,7 @@ hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   headerBottom.classList.toggle('active');
 });
+
+// micromodal
+
+MicroModal.init();

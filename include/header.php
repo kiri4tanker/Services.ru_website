@@ -1,3 +1,4 @@
+<?php require_once('include/feedback.php') ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -41,7 +42,7 @@
                <a href="login.php" class="btn">
                   <ion-icon name="person-outline"></ion-icon>Войти
                </a>
-               <button class="btn"><ion-icon name="build-outline"></ion-icon></button>
+               <button class="btn" data-micromodal-trigger="feedback"><ion-icon name="build-outline"></ion-icon></button>
             </div>
          </div>
          <div class="header__bottom">
