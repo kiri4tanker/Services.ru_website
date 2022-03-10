@@ -31,6 +31,11 @@
                            <option class="option" value="">Исполнитель</option>
                            <option class="option" value="">Заказчик</option>
                         </select>
+                        <div class="checkbox">
+                           <input class="checkbox__input" type="checkbox" id="checkbox" name="checkbox">
+                           <label class="checkbox__box" for="checkbox"></label>
+                           <label for="checkbox" class="checkbox__text text-muted">Согласен на обработку персональных данных</label>
+                        </div>
                         <button class="btn">Создать аккаунт</button>
                      </form>
                   </div>

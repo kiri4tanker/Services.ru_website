@@ -544,6 +544,36 @@ ion-icon {
    color: #fff;
    background: var(--accent-color);
 }
+/* checkbox */
+.checkbox {
+   display: flex;
+   gap: 10px;
+   align-items: center;
+}
+.checkbox__box {
+   display: block;
+   width: 20px;
+   height: 20px;
+   border: 1px solid var(--border-color);
+   border-radius: var(--round-sm);
+   position: relative;
+}
+.checkbox__input {
+   display: none;
+}
+.checkbox__input:checked ~ .checkbox__box::after {
+   content: '✓';
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   color: var(--accent-color-hover);
+   font-size: 20px;
+}
+.checkbox__text {
+   line-height: 1;
+   user-select: none;
+}
 /* link */
 .link {
    color: var(--accent-color);
