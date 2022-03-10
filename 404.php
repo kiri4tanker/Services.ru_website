@@ -1,6 +1,16 @@
 <?php require_once('include/header.php') ?>
    <!-- Start of Main -->
+   <!-- Start of Main -->
    <main class="main">
+      <!-- Breadcrumbs -->
+      <section class="breadcrumbs">
+         <div class="container">
+            <div class="breadcrumbs__content">
+               <span class="breadcrumbs__link breadcrumbs__link_static">404</span>
+            </div>
+         </div>
+      </section>
+      <!-- Section 404 -->
       <section class="section section_primary">
          <div class="container">
             <div class="section__wrapper">

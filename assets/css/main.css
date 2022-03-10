@@ -545,6 +545,26 @@ ion-icon {
 .hamburger.active .hamburger__line:nth-child(2) {
    transform: translateY(calc(-200% + 0.5px)) rotate(-45deg);
 }
+/* breadcrumbs */
+.breadcrumbs__content {
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+.breadcrumbs__link {
+   color: var(--text-color);
+}
+.breadcrumbs__link_static {
+   color: var(--text-muted-color);
+   pointer-events: none;
+}
+.breadcrumbs__arrow {
+   width: 14px;
+   height: 14px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
 /* error */
 .error {
    display: grid;
