@@ -79,6 +79,9 @@
 }
 /* from xs to sm */
 @media (max-width: 576px) {
+   .section {
+      padding: 60px 0;
+   }
 	.services {
       grid-template-columns: repeat(2, 1fr);
    }
