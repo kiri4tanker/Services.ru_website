@@ -1,4 +1,4 @@
-<?php require_once('include/header.php') ?>
+ <?php require_once('include/header.php') ?>
    <!-- Start of Main -->
    <main class="main">
       <!-- Breadcrumbs -->
@@ -28,7 +28,10 @@
                            <option class="option" value="">Исполнитель</option>
                            <option class="option" value="">Заказчик</option>
                         </select>
-                        <button class="btn">Войти</button>
+                        <div class="inline inline_lg">
+                           <button class="btn">Войти</button>
+                           <a href="" class="link">Забыли пароль?</a>
+                        </div>
                      </form>
                   </div>
                </div>
