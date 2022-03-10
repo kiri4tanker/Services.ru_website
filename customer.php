@@ -6,7 +6,7 @@
          <div class="container">
             <div class="breadcrumbs__content">
                <a href="index.php" class="breadcrumbs__link">Главная</a>
-               <img src="assets/images/arrow.svg" alt="arrow" class="breadcrumbs__arrow">
+               <ion-icon name="chevron-forward-outline" class="breadcrumbs__arrow"></ion-icon>
                <span class="breadcrumbs__link breadcrumbs__link_static">Личный кабинет</span>
             </div>
          </div>
