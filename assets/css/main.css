@@ -550,7 +550,6 @@ ion-icon {
    margin-top: 20px;
    display: flex;
    align-items: center;
-   flex-wrap: nowrap;
 }
 .breadcrumbs__link {
    color: var(--text-color);
@@ -562,8 +561,7 @@ ion-icon {
 .breadcrumbs__arrow {
    width: 14px;
    height: 14px;
-   margin-left: 10px;
-   margin-right: 10px;
+   margin: 0 10px;
 }
 /* error */
 .error {
