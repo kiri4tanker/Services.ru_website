@@ -78,7 +78,7 @@
    }
 }
 /* from xs to sm */
-@media (max-width: 576px) {
+@media (max-width: 577px) {
    .section {
       padding: 60px 0;
    }
@@ -124,7 +124,7 @@
       width: 200px;
    }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
    .hamburger {
       display: none;
    }
@@ -132,7 +132,7 @@
       display: none !important;
    }
 }
-@media (min-width: 992px) {
+@media (min-width: 993px) {
    .section_primary .section__heading {
       max-width: 360px;
    }
