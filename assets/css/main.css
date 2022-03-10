@@ -312,9 +312,8 @@ img {
    margin: 0 auto;
 }
 .search-form__input {
-   height: 31px;
    flex-grow: 1;
-   padding: 5px;
+   padding: 10px;
 }
 .search-form__btn {
    width: 31px;
