@@ -297,6 +297,18 @@ img {
    color: #FFFFFF;
    background-size: cover !important;
    background-position: center !important;
+   position: relative;
+   z-index: 1;
+}
+.section_background::before {
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   background: var(--overlay);
+   z-index: -1;
 }
 .section_background .section__subtitle {
    color: #FFFFFF;
