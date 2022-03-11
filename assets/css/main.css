@@ -259,7 +259,19 @@ img {
    max-width: 100%;
    width: 500px;
 }
+/* profile user */
+.profile__line {
+   background: var(--border-color);
+   height: 1px;
+   max-width: 100%;
+   width: 820px;
+}
 /* copyright */
+.profile__heading {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   justify-content: start;
+}
 .text-muted {
    color: var(--text-muted-color);
 }
