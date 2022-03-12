@@ -221,6 +221,14 @@ img {
 .btn:hover {
    background: var(--accent-color-hover);
 }
+.btn_grey {
+   background: var(--item-color);
+   color: var(--text-color);
+}
+.btn_grey:hover {
+   background: var(--accent-color-hover);
+   color: #FFFFFF;
+}
 /* footer */
 .footer {
    margin-top: auto;
@@ -265,13 +273,15 @@ img {
    height: 1px;
    max-width: 100%;
    width: 820px;
+   margin: 40px 0;
 }
-/* copyright */
 .profile__heading {
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   justify-content: start;
 }
+.profile__item {
+   display: grid;
+}
+/* text-muted */
 .text-muted {
    color: var(--text-muted-color);
 }

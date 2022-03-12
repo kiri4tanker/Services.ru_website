@@ -26,8 +26,30 @@
                   <div class="profile__line"></div>
                   <div class="profile__content">
                      <button class="btn">Мои заказы</button>
-                     <button class="btn">Анкета</button>
-                     <button class="btn">Настройки</button>
+                     <button class="btn btn_grey">Анкета</button>
+                     <button class="btn btn_grey">Настройки</button>
+                  </div>
+                  <div class="profile__services">
+                     <div class="profile__item">
+                        <img src="assets/images/profile/services/1.png" alt="" class="img__profile__item">
+                        <strong class="item__name">Психолог Вероника Степанова</strong>
+                        <p class="item__city text-muted">Калининград</p>
+                     </div>
+                     <div class="profile__item">
+                        <img src="assets/images/profile/services/1.png" alt="" class="img__profile__item">
+                        <strong class="item__name">Психолог Вероника Степанова</strong>
+                        <p class="item__city text-muted">Калининград</p>
+                     </div>
+                     <div class="profile__item">
+                        <img src="assets/images/profile/services/1.png" alt="" class="img__profile__item">
+                        <strong class="item__name">Психолог Вероника Степанова</strong>
+                        <p class="item__city text-muted">Калининград</p>
+                     </div>
+                     <div class="profile__item">
+                        <img src="assets/images/profile/services/1.png" alt="" class="img__profile__item">
+                        <strong class="item__name">Психолог Вероника Степанова</strong>
+                        <p class="item__city text-muted">Калининград</p>
+                     </div>
                   </div>
                </div>
             </div>
