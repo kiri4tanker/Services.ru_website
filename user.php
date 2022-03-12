@@ -33,28 +33,28 @@
                      <div class="profile__order">
                         <img src="assets/images/profile/services/1.png" alt="service-img" class="order__img">
                         <div class="order__text">
-                           <p class="order__name">Психолог Вероника Степанова</p>
+                           <strong class="order__name">Психолог Вероника Степанова</strong>
                            <p class="order__city text-muted">Калининград</p>
                         </div>
                      </div>
                      <div class="profile__order">
                         <img src="assets/images/profile/services/1.png" alt="service-img" class="order__img">
                         <div class="order__text">
-                           <p class="order__name">Психолог Вероника Степанова</p>
+                           <strong class="order__name">Психолог Вероника Степанова</strong>
                            <p class="order__city text-muted">Калининград</p>
                         </div>
                      </div>
                      <div class="profile__order">
                         <img src="assets/images/profile/services/1.png" alt="service-img" class="order__img">
                         <div class="order__text">
-                           <p class="order__name">Психолог Вероника Степанова</p>
+                           <strong class="order__name">Психолог Вероника Степанова</strong>
                            <p class="order__city text-muted">Калининград</p>
                         </div>
                      </div>
                      <div class="profile__order">
                         <img src="assets/images/profile/services/1.png" alt="service-img" class="order__img">
                         <div class="order__text">
-                           <p class="order__name">Психолог Вероника Степанова</p>
+                           <strong class="order__name">Психолог Вероника Степанова</strong>
                            <p class="order__city text-muted">Калининград</p>
                         </div>
                      </div>
