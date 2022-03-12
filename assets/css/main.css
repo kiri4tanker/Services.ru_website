@@ -272,12 +272,12 @@ img {
    background: var(--border-color);
    height: 1px;
    max-width: 100%;
-   margin: 40px 0;
 }
 .profile {
    align-items: center;
    display: grid;
-   gap: var(--gutter);
+   column-gap: var(--gutter);
+   row-gap: calc(var(--gutter)*2);
    grid-template-columns: 200px 1fr;
    grid-template-areas: 
       "profile-img profile-text"
