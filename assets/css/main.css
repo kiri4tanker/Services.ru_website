@@ -275,12 +275,41 @@ img {
    width: 820px;
    margin: 40px 0;
 }
-.profile__heading {
+.profile {
    display: grid;
+   gap: var(--gutter);
+   grid-template-columns: 200px 1fr;
+   grid-template-areas: 
+      "profile-img profile-text"
+      "profile-line profile-line"
+      "profile-tabs profile-orders"
+   ;
 }
-.profile__item {
+.profile__text {
+   margin: 22px 0;
+}
+.profile__img {
+   height: 200px;
+}
+.profile__orders {
    display: grid;
+   grid-template-columns: repeat(2, 2fr);
 }
+.profile__order {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+.profile__tabs {
+   gap: var(--gutter);
+   display: grid;
+   justify-content: center;
+   text-align: center;
+}
+.profile__img { grid-area: profile-img }
+.profile__text { grid-area: profile-text }
+.profile__line { grid-area: profile-line }
+.profile__tabs { grid-area: profile-tabs }
+.profile__orders { grid-area: profile-orders }
 /* text-muted */
 .text-muted {
    color: var(--text-muted-color);

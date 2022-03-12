@@ -16,39 +16,47 @@
          <div class="container">
             <div class="section wrapper">
                <div class="profile">
-                  <div class="profile__heading">
-                     <img src="assets/images/profile/avatar/avatar.png" alt="avatar" class="profile_avatar">
+                  <img src="assets/images/profile/avatar/avatar.png" alt="avatar" class="img__profile">
+                  <div class="profile__text">
                      <h2 class="profile__name">Анастасия Кубрак</h2>
                      <strong class="profile__city">Северск</strong>
-                     <a href="tel:81000710007" class="profile__phone">+7 100 071-00-07</a>
-                     <p class="profile__description text-muted">За время моей работы были выявлены основные источники финансирования, главные направления работы и причины, почему их аудитория держится столь длительное время.</p>
+                     <a href="tel:81000710007" class="profile_phone">+7 100 071-00-07</a>
+                     <p class="profile__description text-muted">За время моей работы были выявлены основные источники финансирования, главные направления работы и причины, почему их аудитория держится столь длительное время. </p>
                   </div>
                   <div class="profile__line"></div>
-                  <div class="profile__content">
+                  <div class="profile__tabs">
                      <button class="btn">Мои заказы</button>
                      <button class="btn btn_grey">Анкета</button>
                      <button class="btn btn_grey">Настройки</button>
                   </div>
-                  <div class="profile__services">
-                     <div class="profile__item">
-                        <img src="assets/images/profile/services/1.png" alt="" class="img__profile__item">
-                        <strong class="item__name">Психолог Вероника Степанова</strong>
-                        <p class="item__city text-muted">Калининград</p>
+                  <div class="profile__orders">
+                     <div class="profile__order">
+                        <img src="assets/images/profile/services/1.png" alt="service-img" class="order__img">
+                        <div class="order__text">
+                           <p class="order__name">Психолог Вероника Степанова</p>
+                           <p class="order__city text-muted">Калининград</p>
+                        </div>
                      </div>
-                     <div class="profile__item">
-                        <img src="assets/images/profile/services/1.png" alt="" class="img__profile__item">
-                        <strong class="item__name">Психолог Вероника Степанова</strong>
-                        <p class="item__city text-muted">Калининград</p>
+                     <div class="profile__order">
+                        <img src="assets/images/profile/services/1.png" alt="service-img" class="order__img">
+                        <div class="order__text">
+                           <p class="order__name">Психолог Вероника Степанова</p>
+                           <p class="order__city text-muted">Калининград</p>
+                        </div>
                      </div>
-                     <div class="profile__item">
-                        <img src="assets/images/profile/services/1.png" alt="" class="img__profile__item">
-                        <strong class="item__name">Психолог Вероника Степанова</strong>
-                        <p class="item__city text-muted">Калининград</p>
+                     <div class="profile__order">
+                        <img src="assets/images/profile/services/1.png" alt="service-img" class="order__img">
+                        <div class="order__text">
+                           <p class="order__name">Психолог Вероника Степанова</p>
+                           <p class="order__city text-muted">Калининград</p>
+                        </div>
                      </div>
-                     <div class="profile__item">
-                        <img src="assets/images/profile/services/1.png" alt="" class="img__profile__item">
-                        <strong class="item__name">Психолог Вероника Степанова</strong>
-                        <p class="item__city text-muted">Калининград</p>
+                     <div class="profile__order">
+                        <img src="assets/images/profile/services/1.png" alt="service-img" class="order__img">
+                        <div class="order__text">
+                           <p class="order__name">Психолог Вероника Степанова</p>
+                           <p class="order__city text-muted">Калининград</p>
+                        </div>
                      </div>
                   </div>
                </div>
