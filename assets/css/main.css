@@ -306,12 +306,12 @@ img {
    margin: 15px 0;
 }
 .profile__tabs {
-   gap: var(--gutter);
+   gap: 10px;
    display: grid;
    align-self: start;
 }
 .profile__tabs .btn {
-   padding: 20px;
+   padding: 15px;
    justify-content: center;
 }
 .profile__img { grid-area: profile-img }
