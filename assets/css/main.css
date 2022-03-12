@@ -301,9 +301,7 @@ img {
    display: grid;
    grid-template-columns: auto 1fr;
    gap: var(--gutter);
-}
-.order__text {
-   margin: 15px 0;
+   align-items: center;
 }
 .profile__tabs {
    gap: 10px;
