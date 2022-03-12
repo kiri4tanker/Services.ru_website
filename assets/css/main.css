@@ -272,7 +272,6 @@ img {
    background: var(--border-color);
    height: 1px;
    max-width: 100%;
-   width: 820px;
    margin: 40px 0;
 }
 .profile {
