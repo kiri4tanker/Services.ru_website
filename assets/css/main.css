@@ -289,7 +289,7 @@ img {
    margin: 22px 0;
 }
 .profile__img {
-   height: 200px;
+   height: 190px;
 }
 .profile__orders {
    gap: var(--gutter);
@@ -298,7 +298,8 @@ img {
 }
 .profile__order {
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: auto 1fr;
+   gap: var(--gutter);
 }
 .order__text {
    margin: 15px 0;
@@ -306,8 +307,6 @@ img {
 .profile__tabs {
    gap: var(--gutter);
    display: grid;
-   justify-content: center;
-   text-align: center;
 }
 .profile__img { grid-area: profile-img }
 .profile__text { grid-area: profile-text }
