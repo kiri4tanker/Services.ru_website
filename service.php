@@ -7,9 +7,9 @@
             <div class="breadcrumbs__content">
                <a href="index.php" class="breadcrumbs__link">Главная</a>
                <ion-icon name="chevron-forward-outline" class="breadcrumbs__arrow"></ion-icon>
-               <a href="index.php" class="breadcrumbs__link">Услуги</a>
+               <a href="services.php" class="breadcrumbs__link">Услуги</a>
                <ion-icon name="chevron-forward-outline" class="breadcrumbs__arrow"></ion-icon>
-               <a href="index.php" class="breadcrumbs__link">Психология</a>
+               <a href="services.php" class="breadcrumbs__link">Психология</a>
                <ion-icon name="chevron-forward-outline" class="breadcrumbs__arrow"></ion-icon>
                <span class="breadcrumbs__link breadcrumbs__link_static">Суетолог</span>
             </div>
