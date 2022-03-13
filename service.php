@@ -26,49 +26,41 @@
                   <div class="service-singl__text">
                      <h2 class="service-single__name">Татьяна Маяковская</h2>
                      <p class="service-single__city text-muted">Калининград</p>
-                     <p class="service-single__secription">Каждый из нас проходит через сложные периоды в жизни. Иногда они затягиваются, но бывает, что мы успокаиваем себя логическими доводами или надеждой. А что делать, если раздражение, страх, неуверенность в себе, в будущем или окружающих не отступает ни на шаг? Это именно тот период, когда лучше всего обратиться к психологу. Помощь опытного психолога поможет вам: найти решение в сложной ситуации (детско-родительские, супружеские, межличностные отношения в коллективе и т.д.) понять свои интересы, способности и ожидания, что поможет избежать разочарования; открыть творческий потенциал, поднять самооценку, преодолеть чувство одиночества.</p>
+                     <p class="service-single__secription">Каждый из нас проходит через сложные периоды в жизни. Иногда они затягиваются, но бывает, что мы успокаиваем себя логическими доводами или надеждой. А что делать, если раздражение, страх, неуверенность в себе, в будущем или окружающих не отступает ни на шаг? Это именно тот период, когда лучше всего обратиться к психологу. Помощь опытного психолога поможет вам: найти решение в сложной ситуации (детско-родительские, супружеские, межличностные отношения в коллективе и т.д.)</p>
                      <button class="btn">Телефон</button>
                      <button class="btn">Чат</button>
                   </div>
-                  <div class="service-single__botoom">
-                     <!-- Slider main container -->
-                     <div class="swiper">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                           <!-- Slides -->
-                           <div class="swiper-slide">
-                              <div class="reason">
-                                 <img src="/assets/images/reason/reason-1.png" alt="" class="reason__img">
-                                 <strong class="reason__title">Ответственность</strong>
-                                 <small class="reason__text">Проверяем каждый отзыв. Если заказ спорный, мы узнаем подробности.</small>
-                              </div>
+               </div>
+               <div class="service-single__bottom">
+                  <!-- Slider main container -->
+                  <div class="swiper service-swiper">
+                     <!-- Additional required wrapper -->
+                     <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                           <div class="serevice-single__slider">
+                              <img src="/assets/images/service/slide-1.png" alt="slider" class="service__slider__img">
                            </div>
-                           <div class="swiper-slide">
-                           <div class="reason">
-                              <img src="/assets/images/reason/reason-2.png" alt="" class="reason__img">
-                              <strong class="reason__title">Продуктивность</strong>
-                              <small class="reason__text">Находим специалистов, которые точно готовы взяться за дело.</small>
-                              </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="serevice-single__slider">
+                              <img src="/assets/images/service/slide-2.png" alt="slider" class="service__slider__img">
                            </div>
-                           <div class="swiper-slide">
-                           <div class="reason">
-                              <img src="/assets/images/reason/reason-3.png" alt="" class="reason__img">
-                              <strong class="reason__title">Качество</strong>
-                              <small class="reason__text">В рейтинге мы учитываем опыт специалиста, качество работы, культуру общения и пунктуальность.</small>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="serevice-single__slider">
+                              <img src="/assets/images/service/slide-3.png" alt="slider" class="service__slider__img">      
                            </div>
-                           </div>
-                           <div class="swiper-slide">
-                           <div class="reason">
-                              <img src="/assets/images/reason/reason-4.png" alt="" class="reason__img">
-                              <strong class="reason__title">Скорость</strong>
-                              <small class="reason__text">Предлагаем специалистов, которые соответствуют вашему заказу - выбирайте подходящего!</small>
-                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="serevice-single__slider">
+                              <img src="/assets/images/service/slide-4.png" alt="slider" class="service__slider__img">
                            </div>
                         </div>
                      </div>
-                     <!-- If we need pagination -->
-                     <div class="swiper-custom-pagination"></div>
                   </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-custom-pagination"></div>
                </div>
             </div>
          </div>
