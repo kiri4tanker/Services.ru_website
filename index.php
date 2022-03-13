@@ -155,21 +155,21 @@
                         </div>
                      </div>
                      <div class="swiper-slide">
-                     <div class="reason">
+                        <div class="reason">
                            <img src="/assets/images/reason/reason-2.png" alt="" class="reason__img">
                            <strong class="reason__title">Продуктивность</strong>
                            <small class="reason__text">Находим специалистов, которые точно готовы взяться за дело.</small>
                         </div>
                      </div>
                      <div class="swiper-slide">
-                     <div class="reason">
+                        <div class="reason">
                            <img src="/assets/images/reason/reason-3.png" alt="" class="reason__img">
                            <strong class="reason__title">Качество</strong>
                            <small class="reason__text">В рейтинге мы учитываем опыт специалиста, качество работы, культуру общения и пунктуальность.</small>
                         </div>
                      </div>
                      <div class="swiper-slide">
-                     <div class="reason">
+                        <div class="reason">
                            <img src="/assets/images/reason/reason-4.png" alt="" class="reason__img">
                            <strong class="reason__title">Скорость</strong>
                            <small class="reason__text">Предлагаем специалистов, которые соответствуют вашему заказу - выбирайте подходящего!</small>

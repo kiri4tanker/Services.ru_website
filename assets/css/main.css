@@ -267,6 +267,26 @@ img {
    max-width: 100%;
    width: 500px;
 }
+/* service-singl */
+.section__heading_center {
+   text-align: center;
+}
+.service-single {
+   display: grid;
+   grid-template-areas: 
+      "service-img service-text"
+      "service-slider service-slider"   
+   ;
+   column-gap: var(--gutter);
+   row-gap: calc(var(--gutter)*2);
+   align-items: center;
+}
+.service-single__img {
+   height: 284;
+}
+.service-single__img { grid-area: service-img }
+.service-single__text { grid-area: service-text }
+.service-single__bottom { grid-area: service-slider }
 /* profile user */
 .profile__line {
    background: var(--border-color);
