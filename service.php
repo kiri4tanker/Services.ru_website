@@ -23,12 +23,14 @@
                </div>
                <div class="service-single">
                   <img src="assets/images/service/img-service-avatar.png" alt="service-img" class="service-single__img">
-                  <div class="service-singl__text">
+                  <div class="service-single__text">
                      <h2 class="service-single__name">Татьяна Маяковская</h2>
                      <p class="service-single__city text-muted">Калининград</p>
                      <p class="service-single__secription">Каждый из нас проходит через сложные периоды в жизни. Иногда они затягиваются, но бывает, что мы успокаиваем себя логическими доводами или надеждой. А что делать, если раздражение, страх, неуверенность в себе, в будущем или окружающих не отступает ни на шаг? Это именно тот период, когда лучше всего обратиться к психологу. Помощь опытного психолога поможет вам: найти решение в сложной ситуации (детско-родительские, супружеские, межличностные отношения в коллективе и т.д.)</p>
-                     <button class="btn">Телефон</button>
-                     <button class="btn">Чат</button>
+                     <div class="inline">
+                        <button class="btn">Телефон</button>
+                        <button class="btn">Чат</button>
+                     </div>
                   </div>
                </div>
                <div class="service-single__bottom">

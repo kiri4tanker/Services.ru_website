@@ -283,6 +283,11 @@ img {
 .service-single__img {
    height: 284;
 }
+.service-single__text {
+   display: grid;
+   gap: 10px;
+   justify-content: start;
+}
 .service-single__bottom {
    margin-top: 50px;
 }
