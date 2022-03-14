@@ -273,6 +273,7 @@ img {
 }
 .service-single {
    display: grid;
+   grid-template-columns: 280px 1fr;
    grid-template-areas: 
       "service-img service-text" 
    ;
@@ -281,7 +282,8 @@ img {
    align-items: center;
 }
 .service-single__img {
-   height: 284;
+   height: 280px;
+   border-radius: var(--round);
 }
 .service-single__text {
    display: grid;
@@ -329,6 +331,7 @@ img {
    gap: 10px;
 }
 .profile__img {
+   border-radius: var(--round);
    height: 190px;
 }
 .profile__orders {

@@ -76,6 +76,16 @@
    .modal__container {
       width: calc(100% - var(--gutter) * 2);
    }
+   .profile__orders {
+      grid-template-columns: 1fr;
+   }
+   .service-single__description {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+   }
 }
 /* from xs to sm */
 @media (max-width: 577px) {
@@ -122,6 +132,33 @@
    }
    .error__img {
       width: 200px;
+   }
+   .profile__img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+   }
+   .profile {
+   grid-template-columns: 1fr;
+   grid-template-areas:
+      "profile-img"
+      "profile-text"
+      "profile-line"
+      "profile-tabs"
+      "profile-orders";
+   }
+   .profile__tabs .btn {
+      padding: 20px;
+   }
+   .service-single {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "service-img"
+        "service-text";
+   }
+   .service-single__img {
+      width: 100%;
+      object-fit: cover;
    }
 }
 @media (min-width: 769px) {

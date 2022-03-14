@@ -16,7 +16,7 @@
          <div class="container">
             <div class="section wrapper">
                <div class="profile">
-                  <img src="assets/images/profile/avatar/avatar.png" alt="avatar" class="img__profile">
+                  <img src="assets/images/profile/avatar/avatar.png" alt="avatar" class="profile__img">
                   <div class="profile__text">
                      <h2 class="profile__name">Анастасия Кубрак</h2>
                      <strong class="profile__city">Северск</strong>
