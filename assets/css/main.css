@@ -747,11 +747,22 @@ ion-icon {
 .services__catalog {
    display: grid;
    gap: 10px;
-   justify-content: center;
 }
 .services .btn {
    width: 100%;
    padding: 15px 15px;
+   justify-content: center;
+}
+.services__list {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-auto-rows: max-content;
+   gap: var(--gutter);
+   align-items: center;
+}
+.services__list .btn {
+   padding: 20px 10px;
+   justify-content: center;
 }
 /* error */
 .error {
