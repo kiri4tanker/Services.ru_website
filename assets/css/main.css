@@ -305,8 +305,8 @@ img {
 .service-single__slider .service__slider__img {
    width: 200px;
 }
-.service-single__img { grid-area: service-img }
-.service-single__text { grid-area: service-text }
+.service-single__img { grid-area: service-img; }
+.service-single__text { grid-area: service-text; }
 /* profile user */
 .profile__line {
    background: var(--border-color);
@@ -332,31 +332,34 @@ img {
    border-radius: var(--round);
    height: 190px;
 }
-.profile__orders {
+.profile__tabs {
+   align-self: start;
+}
+.profile__img { grid-area: profile-img; }
+.profile__text { grid-area: profile-text; }
+.profile__line { grid-area: profile-line; }
+.profile__tabs { grid-area: profile-tabs; }
+.profile__orders { grid-area: profile-orders; }
+/* orders */
+.orders {
+   --items: 2;
    gap: var(--gutter);
    display: grid;
-   grid-template-columns: repeat(2, 2fr);
+   grid-template-columns: repeat(var(--items), 1fr);
 }
-.profile__order {
+/* order */
+.order {
    display: grid;
    grid-template-columns: auto 1fr;
    gap: var(--gutter);
    align-items: center;
+   border-radius: var(--round);
+   transition: transform var(--time), box-shadow var(--time);
 }
-.profile__tabs {
-   gap: 10px;
-   display: grid;
-   align-self: start;
+.order:hover {
+   transform: translateY(-10px);
+   box-shadow: var(--shadow);
 }
-.profile__tabs .btn {
-   padding: 15px;
-   justify-content: center;
-}
-.profile__img { grid-area: profile-img }
-.profile__text { grid-area: profile-text }
-.profile__line { grid-area: profile-line }
-.profile__tabs { grid-area: profile-tabs }
-.profile__orders { grid-area: profile-orders }
 /* text-muted */
 .text-muted {
    color: var(--text-muted-color);
@@ -654,12 +657,17 @@ ion-icon {
    gap: 10px;
    align-items: center;
 }
-.checkbox_catalog {
-   padding: 15px;
-   margin: 10px;
-   background: var(--item-color);
+.checkbox_full {
    width: 100%;
-   justify-content: space-between;
+   height: 100%;
+}
+.checkbox_full .checkbox__text {
+   flex-grow: 1;
+   text-align: left;
+   cursor: pointer;
+}
+.checkbox__box {
+   cursor: pointer;
 }
 .checkbox__box {
    display: block;
@@ -668,6 +676,7 @@ ion-icon {
    border: 1px solid var(--border-color);
    border-radius: var(--round-sm);
    position: relative;
+   background: var(--bg-color);
 }
 .checkbox__input {
    display: none;
@@ -734,63 +743,88 @@ ion-icon {
    margin: 0 10px;
 }
 /* service catalog */
-.service-catalog {
+.filter {
    display: grid;
    align-items: center;
    column-gap: var(--gutter);
    row-gap: calc(var(--gutter) * 2);
    grid-template-columns: 300px 1fr;
    grid-template-areas:
-      "catalog-title catalog-search"
-      "catalog-line catalog-line"
-      "catalog-services catalog-list"
-   ;
+      "filter-title filter-search"
+      "filter-line filter-line"
+      "filter-catalog filter-content";
 }
-.service-catalog__title { grid-area: catalog-title; }
-.service-catalog .search-form {
-   grid-area: catalog-search;
+.filter__title { grid-area: filter-title; }
+.filter .search-form {
+   grid-area: filter-search;
    width: 100%;
 }
-.service-catalog__line {
-   grid-area: catalog-line;
+.filter__line {
+   grid-area: filter-line;
    background: var(--border-color);
    width: 100%;
    height: 1px;
 }
-.service-catalog__services {
-   grid-area: catalog-services;
+.filter__catalog {
+   align-self: start;
+   grid-area: filter-catalog;
    display: grid;
    gap: 10px;
 }
-.catalog-item {
+.filter__content {
+   align-self: start;
+   grid-area: filter-content;
+ }
+/* list-group */
+.list-group {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.list-group:not(.list-group_inline) {
+   --limit: 8;
+   max-height: calc((40px + 10px) * var(--limit));
+   overflow-y: auto;
+}
+.list-group:not(.list-group_inline)::-webkit-scrollbar {
+   width: 10px;
+}
+.list-group:not(.list-group_inline)::-webkit-scrollbar-thumb {
+   border-right: 2px solid var(--border-color);
+   border-left: 8px solid var(--bg-color);
+}
+.list-group_inline {
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.list-group_inline .list-group__item {
+   flex: 1 1 200px;
+}
+.list-group__item {
    background: var(--item-color);
    border-radius: var(--round);
-   padding: 10px 20px;
+   padding: 0 20px;
+   height: 40px;
    cursor: pointer;
    display: flex;
    justify-content: center;
    align-items: center;
    transition: background var(--time);
+   flex-shrink: 0;
+   flex-basis: 40px;
 }
-.catalog-item:hover {
+.list-group__item:hover {
    background: var(--border-color);
 }
-.catalog-item_active {
+.list-group__item_active {
    background: var(--accent-color);
    color: #fff;
 }
-.catalog-item_active:hover {
+.list-group__item_active:hover {
    background: var(--accent-color-hover);
 }
-.service-catalog__list {
-   align-self: start;
-   grid-area: catalog-list;
-   display: flex;
-   gap: 10px;
-   flex-wrap: wrap;
-}
-.service-catalog__list .catalog-item {
-   flex: 1 1 250px;
+.list-group .checkbox_full .checkbox__text {
+   line-height: 40px;
 }
 /* services */ 
 .services__line {
