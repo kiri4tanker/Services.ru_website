@@ -275,8 +275,7 @@ img {
    display: grid;
    grid-template-columns: 280px 1fr;
    grid-template-areas: 
-      "service-img service-text" 
-   ;
+      "service-img service-text";
    column-gap: var(--gutter);
    row-gap: calc(var(--gutter)*2);
    align-items: center;
@@ -323,8 +322,7 @@ img {
    grid-template-areas: 
       "profile-img profile-text"
       "profile-line profile-line"
-      "profile-tabs profile-orders"
-   ;
+      "profile-tabs profile-orders";
 }
 .profile__text {
    display: grid;
@@ -724,6 +722,36 @@ ion-icon {
    color: var(--text-color);
    font-size: var(--text-size);
    margin: 0 10px;
+}
+/* catalog */
+.section__catalog .section__heading {
+   display: grid;
+   grid-template-columns: 255px 1fr;
+   gap: 70px;
+}
+.section__catalog .section__heading .search-form {
+   width: 100%;
+}
+/* services */ 
+.services__line {
+   background: var(--border-color);
+   height: 1px;
+   max-width: 100%;
+   margin: 40px;
+}
+.services {
+   display: grid;
+   grid-template-columns: 260px 1fr;
+   gap: var(--gutter);
+}
+.services__catalog {
+   display: grid;
+   gap: 10px;
+   justify-content: center;
+}
+.services .btn {
+   width: 100%;
+   padding: 15px 15px;
 }
 /* error */
 .error {

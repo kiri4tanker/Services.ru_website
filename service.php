@@ -11,6 +11,8 @@
                <ion-icon name="chevron-forward-outline" class="breadcrumbs__arrow"></ion-icon>
                <a href="services.php" class="breadcrumbs__link">Психология</a>
                <ion-icon name="chevron-forward-outline" class="breadcrumbs__arrow"></ion-icon>
+               <a href="services.php" class="breadcrumbs__link">Психолог</a>
+               <ion-icon name="chevron-forward-outline" class="breadcrumbs__arrow"></ion-icon>
                <span class="breadcrumbs__link breadcrumbs__link_static">Суетолог</span>
             </div>
          </div>

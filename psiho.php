@@ -7,7 +7,11 @@
             <div class="breadcrumbs__content">
                <a href="index.php" class="breadcrumbs__link">Главная</a>
                <ion-icon name="chevron-forward-outline" class="breadcrumbs__arrow"></ion-icon>
-               <span class="breadcrumbs__link breadcrumbs__link_static">Услуги</span>
+               <a href="index.php" class="breadcrumbs__link">Услуги</a>
+               <ion-icon name="chevron-forward-outline" class="breadcrumbs__arrow"></ion-icon>
+               <a href="index.php" class="breadcrumbs__link">Психология</a>
+               <ion-icon name="chevron-forward-outline" class="breadcrumbs__arrow"></ion-icon>
+               <span class="breadcrumbs__link breadcrumbs__link_static">Психолог</span>
             </div>
          </div>
       </section>
@@ -21,21 +25,13 @@
                      <button class="search-form__btn"><ion-icon name="arrow-forward-outline"></ion-icon></button>
                   </form>
                </div>
-               <div class="services__line"></div>
                <div class="section__content">
-                  <div class="services">
-                     <div class="services__catalog">
-                        <button class="btn">Психология</button>
-                        <button class="btn btn_grey">Ремонт авто</button>
-                        <button class="btn btn_grey">Уборка</button>
-                        <button class="btn btn_grey">Перевозка вещей</button>
-                        <button class="btn btn_grey">Тренировки</button>
+                  <div class="">
+                     <div class="">
+                        
                      </div>
-                     <div class="services__list">
-                        <a href="#" class="btn btn_grey">Психолог</a>
-                        <a href="#" class="btn btn_grey">Психотерапевт</a>
-                        <a href="#" class="btn btn_grey">Психиатр</a>
-                        <a href="#" class="btn btn_grey">Клинический психолог</a>
+                     <div class="">
+                        
                      </div>
                   </div>
                </div>
