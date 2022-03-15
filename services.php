@@ -12,32 +12,28 @@
          </div>
       </section>
       <!-- Catalog section -->
-      <section class="section section__catalog">
+      <section class="section">
          <div class="container">
             <div class="section__wrapper">
-               <div class="section__heading">
-                  <h1 class="section__title">Каталог услуг</h1>
+               <div class="service-catalog">
+                  <h1 class="service-catalog__title">Каталог услуг</h1>
                   <form method="post" action="" class="search-form">
                      <input name="search" class="search-form__input" placeholder="Поиск" type="text">
                      <button class="search-form__btn"><ion-icon name="arrow-forward-outline"></ion-icon></button>
                   </form>
-               </div>
-               <div class="services__line"></div>
-               <div class="section__content">
-                  <div class="services services_catalog">
-                     <div class="services__catalog">
-                        <button class="btn">Психология</button>
-                        <button class="btn btn_grey">Ремонт авто</button>
-                        <button class="btn btn_grey">Уборка</button>
-                        <button class="btn btn_grey">Перевозка вещей</button>
-                        <button class="btn btn_grey">Тренировки</button>
-                     </div>
-                     <div class="services__list">
-                        <a href="#" class="btn btn_grey">Психолог</a>
-                        <a href="#" class="btn btn_grey">Психотерапевт</a>
-                        <a href="#" class="btn btn_grey">Психиатр</a>
-                        <a href="#" class="btn btn_grey">Клинический психолог</a>
-                     </div>
+                  <div class="service-catalog__line"></div>
+                  <div class="service-catalog__services">
+                     <button class="catalog-item catalog-item_active">Психология</button>
+                     <button class="catalog-item">Ремонт авто</button>
+                     <button class="catalog-item">Уборка</button>
+                     <button class="catalog-item">Перевозка вещей</button>
+                     <button class="catalog-item">Тренировки</button>
+                  </div>
+                  <div class="service-catalog__list">
+                     <a href="#" class="catalog-item">Психолог</a>
+                     <a href="#" class="catalog-item">Психотерапевт</a>
+                     <a href="#" class="catalog-item">Психиатр</a>
+                     <a href="#" class="catalog-item">Клинический психолог</a>
                   </div>
                </div>
             </div>

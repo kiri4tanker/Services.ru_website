@@ -387,6 +387,9 @@ img {
 .search_primary .section__heading .btn {
    margin-top: 10px;
 }
+.section_primary .section__heading {
+   max-width: 360px;
+}
 .section_primary .section__content {
    flex-grow: 1;
 }
@@ -730,35 +733,64 @@ ion-icon {
    font-size: var(--text-size);
    margin: 0 10px;
 }
-/* catalog */
-.catalog .checkbox__box {
-   background: #FFFFFF;
-}
-.section__catalog .section__heading {
+/* service catalog */
+.service-catalog {
    display: grid;
-   grid-template-columns: 255px 1fr;
-   gap: 70px;
-   margin-bottom: 50px;
+   align-items: center;
+   column-gap: var(--gutter);
+   row-gap: calc(var(--gutter) * 2);
+   grid-template-columns: 300px 1fr;
+   grid-template-areas:
+      "catalog-title catalog-search"
+      "catalog-line catalog-line"
+      "catalog-services catalog-list"
+   ;
 }
-.section__catalog .section__heading .search-form {
+.service-catalog__title { grid-area: catalog-title; }
+.service-catalog .search-form {
+   grid-area: catalog-search;
    width: 100%;
 }
-.catalog__filter {
-   display: grid;
-   grid-template-columns: 260px 1fr;
-   gap: var(--gutter);
+.service-catalog__line {
+   grid-area: catalog-line;
+   background: var(--border-color);
+   width: 100%;
+   height: 1px;
 }
-.catalog__list {
-   margin-top: 10px;
-   margin-left: 20px;
+.service-catalog__services {
+   grid-area: catalog-services;
    display: grid;
-   gap: var(--gutter);
+   gap: 10px;
 }
-.list__item {
-   display: grid;
-   grid-template-columns: auto 1fr;
-   gap: var(--gutter);
+.catalog-item {
+   background: var(--item-color);
+   border-radius: var(--round);
+   padding: 10px 20px;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
    align-items: center;
+   transition: background var(--time);
+}
+.catalog-item:hover {
+   background: var(--border-color);
+}
+.catalog-item_active {
+   background: var(--accent-color);
+   color: #fff;
+}
+.catalog-item_active:hover {
+   background: var(--accent-color-hover);
+}
+.service-catalog__list {
+   align-self: start;
+   grid-area: catalog-list;
+   display: flex;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+.service-catalog__list .catalog-item {
+   flex: 1 1 250px;
 }
 /* services */ 
 .services__line {
@@ -770,13 +802,6 @@ ion-icon {
 .services {
    display: grid;
    gap: var(--gutter);
-}
-.services_catalog {
-   grid-template-columns: 265px 1fr;
-}
-.services__catalog {
-   display: grid;
-   gap: 10px;
 }
 .services .btn {
    width: 100%;

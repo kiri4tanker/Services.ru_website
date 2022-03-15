@@ -86,9 +86,19 @@
       -webkit-line-clamp: 5;
       -webkit-box-orient: vertical;
    }
+   .service-catalog {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+         "catalog-title"
+         "catalog-search"
+         "catalog-services"
+         "catalog-line"
+         "catalog-list"
+      ;
+   }
 }
 /* from xs to sm */
-@media (max-width: 577px) {
+@media (max-width: 576px) {
    .section {
       padding: 60px 0;
    }
@@ -167,10 +177,5 @@
    }
    .header__bottom {
       display: none !important;
-   }
-}
-@media (min-width: 993px) {
-   .section_primary .section__heading {
-      max-width: 360px;
    }
 }
