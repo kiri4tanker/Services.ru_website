@@ -655,7 +655,7 @@ ion-icon {
    padding: 15px;
    margin: 10px;
    background: var(--item-color);
-   width: 285px;
+   width: 100%;
    justify-content: space-between;
 }
 .checkbox__box {
@@ -738,6 +738,7 @@ ion-icon {
    display: grid;
    grid-template-columns: 255px 1fr;
    gap: 70px;
+   margin-bottom: 50px;
 }
 .section__catalog .section__heading .search-form {
    width: 100%;
@@ -746,6 +747,18 @@ ion-icon {
    display: grid;
    grid-template-columns: 260px 1fr;
    gap: var(--gutter);
+}
+.catalog__list {
+   margin-top: 10px;
+   margin-left: 20px;
+   display: grid;
+   gap: var(--gutter);
+}
+.list__item {
+   display: grid;
+   grid-template-columns: auto 1fr;
+   gap: var(--gutter);
+   align-items: center;
 }
 /* services */ 
 .services__line {
