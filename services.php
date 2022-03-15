@@ -11,6 +11,7 @@
             </div>
          </div>
       </section>
+      <!-- Catalog section -->
       <section class="section section__catalog">
          <div class="container">
             <div class="section__wrapper">
