@@ -769,8 +769,10 @@ ion-icon {
 }
 .services {
    display: grid;
-   grid-template-columns: 260px 1fr;
    gap: var(--gutter);
+}
+.services_catalog {
+   grid-template-columns: 265px 1fr;
 }
 .services__catalog {
    display: grid;

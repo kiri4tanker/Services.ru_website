@@ -24,7 +24,7 @@
                </div>
                <div class="services__line"></div>
                <div class="section__content">
-                  <div class="services">
+                  <div class="services services_catalog">
                      <div class="services__catalog">
                         <button class="btn">Психология</button>
                         <button class="btn btn_grey">Ремонт авто</button>
