@@ -253,8 +253,7 @@ img {
    grid-template-areas: 
       "footer-logo footer-nav footer-feedback"
       "footer-line footer-line footer-line"
-      "footer-copyright footer-copyright footer-copyright"
-   ;
+      "footer-copyright footer-copyright footer-copyright";
    justify-items: center;
    gap: 25px;
    text-align: center;

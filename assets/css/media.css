@@ -15,8 +15,7 @@
          "footer-logo footer-feedback" 
          "footer-nav footer-nav" 
          "footer-line footer-line"
-         "footer-copyright footer-copyright"
-      ;
+         "footer-copyright footer-copyright";
       justify-items: center;
    }
    .section_primary .section__wrapper {
@@ -93,8 +92,7 @@
          "filter-search"
          "filter-catalog"
          "filter-line"
-         "filter-content"
-      ;
+         "filter-content";
    }
 }
 /* from xs to sm */
@@ -155,8 +153,7 @@
          "profile-text"
          "profile-tabs"
          "profile-line"
-         "profile-orders"
-      ;
+         "profile-orders";
    }
    .profile__tabs .btn {
       padding: 20px;
