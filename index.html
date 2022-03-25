@@ -1,15 +1,24 @@
+<!-- Сразу, важное - используй сборщик, webpack или хотя бы gulp. В том виде, в котором проект сейчас, просто куча статики - с ним очень тяжело работать, что-то изменять. Учись бить на компоненты, и инклюдить их в страницу, чтобы их код лежал одельно -->
+
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- не ICO единым, почитац https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
    <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" type="image/x-icon">
+
+   <!-- CSS собираем в один файл. Иначе каждый файл = +1 запрос к серверу, это критично для взаимодействия -->
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
    <link rel="stylesheet" href="assets/css/main.css">
    <link rel="stylesheet" href="assets/css/media.css">
    <title>Услуги.ру</title>
 </head>
+
 <body>
+   <!-- Нет нужды ставить такие очевидные комменты. И так понятно, что это header -->
    <!-- Start of Header -->
    <header class="header">
       <div class="container">
@@ -41,7 +50,9 @@
                <a href="login.html" class="btn">
                   <ion-icon name="person-outline"></ion-icon>Войти
                </a>
-               <button class="btn" data-micromodal-trigger="modal-feedback"><ion-icon name="build-outline"></ion-icon></button>
+               <button class="btn" data-micromodal-trigger="modal-feedback">
+                  <ion-icon name="build-outline"></ion-icon>
+               </button>
             </div>
          </div>
          <div class="header__bottom">
@@ -67,21 +78,25 @@
    <!-- Start of Main -->
    <main class="main">
       <!-- Search section -->
-      <section style="background-image: url(assets/images/bg/search-bg.jpg)" class="section section_secondary section_background">
-         <div class="container">    
+      <section style="background-image: url(assets/images/bg/search-bg.jpg)"
+         class="section section_secondary section_background">
+         <div class="container">
             <div class="section__wrapper">
                <div class="section__heading">
+                  <!-- Не самый удачный выбор для h1, это ключевой заголовок для seo. Лучще оберни им "услуги.ру" где-нибудь на странице -->
                   <h1 class="section__title">Для любой задачи есть специалист</h2>
-                  <p class="section__subtitle">Поможем найти надежного исполнителя для любых задач.</p>
+                     <p class="section__subtitle">Поможем найти надежного исполнителя для любых задач.</p>
                </div>
                <div class="section__content">
                   <form method="post" action="" class="search-form">
                      <input name="search" class="search-form__input" placeholder="Поиск" type="text">
-                     <button class="search-form__btn"><ion-icon name="arrow-forward-outline"></ion-icon></button>
+                     <button class="search-form__btn">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                     </button>
                   </form>
                </div>
             </div>
-         </div>     
+         </div>
       </section>
       <!-- Services section -->
       <section class="section section_primary">
@@ -95,6 +110,7 @@
                   <div class="services">
                      <div class="service">
                         <a href="#" class="service__card">
+                           <!-- PNG очень тяжелый формат, если там не нужна прозрачность, конвертни в jpg -->
                            <img src="assets/images/services/1.png" alt="" class="service__img">
                            <p class="service__text">Уборка</p>
                         </a>
@@ -141,10 +157,10 @@
                            <p class="service__text">Психологи</p>
                         </a>
                      </div>
-                  </div> 
+                  </div>
                </div>
             </div>
-         </div>    
+         </div>
       </section>
       <!-- About us section -->
       <section class="section section_secondary">
@@ -156,14 +172,18 @@
                <div class="section__content">
                   <div class="about-us">
                      <div class="about-us__content">
-                        <p class="about-us__text">Услуги.ру — это сервис, который помогает клиентам и специалистам встретиться. Клиенты находят здесь профессионалов для решения любых задач — репетиторов, автоинструкторов, сантехников, парикмахеров.<br>А специалисты, в свою очередь, быстро находят клиентов, ведь с помощью сайта можно в один клик организовать свой бизнес на дому без вложений.</p>
+                        <p class="about-us__text">Услуги.ру — это сервис, который помогает клиентам и специалистам
+                           встретиться. Клиенты находят здесь профессионалов для решения любых задач — репетиторов,
+                           автоинструкторов, сантехников, парикмахеров.<br>А специалисты, в свою очередь, быстро находят
+                           клиентов, ведь с помощью сайта можно в один клик организовать свой бизнес на дому без
+                           вложений.</p>
                         <a href="about-us.html" class="btn">Читать далее</a>
                      </div>
                      <div class="about-us__img">
                         <img src="assets/images/section-img/about-us.png" alt="about-us-img">
                      </div>
                   </div>
-               </div> 
+               </div>
             </div>
          </div>
       </section>
@@ -171,30 +191,30 @@
       <section class="section section_primary">
          <div class="container">
             <div class="section__wrapper">
-            <div class="section__heading">
-               <h2 class="section__title">Наша статистика</h2>
-               <p class="section__subtitle">За время работы с заказчиками и исполнителями</p>
-            </div>
-            <div class="section__content">
-               <div class="stats">
-                  <div class="stats__item">
-                     <h3 class="stats__number">5928</h3>
-                     <p class="stats__text">Пользователей с нами</p>
-                  </div>
-                  <div class="stats__item">
-                     <h3 class="stats__number">3638</h3>
-                     <p class="stats__text">Довольных пользователей</p>
-                  </div>
-                  <div class="stats__item">
-                     <h3 class="stats__number">847</h3>
-                     <p class="stats__text">Специалистов на сайте</p>
-                  </div>
-                  <div class="stats__item">
-                     <h3 class="stats__number">9842</h3>
-                     <p class="stats__text">Выполнено заказов</p>
+               <div class="section__heading">
+                  <h2 class="section__title">Наша статистика</h2>
+                  <p class="section__subtitle">За время работы с заказчиками и исполнителями</p>
+               </div>
+               <div class="section__content">
+                  <div class="stats">
+                     <div class="stats__item">
+                        <h3 class="stats__number">5928</h3>
+                        <p class="stats__text">Пользователей с нами</p>
+                     </div>
+                     <div class="stats__item">
+                        <h3 class="stats__number">3638</h3>
+                        <p class="stats__text">Довольных пользователей</p>
+                     </div>
+                     <div class="stats__item">
+                        <h3 class="stats__number">847</h3>
+                        <p class="stats__text">Специалистов на сайте</p>
+                     </div>
+                     <div class="stats__item">
+                        <h3 class="stats__number">9842</h3>
+                        <p class="stats__text">Выполнено заказов</p>
+                     </div>
                   </div>
                </div>
-            </div>
             </div>
          </div>
       </section>
@@ -208,36 +228,42 @@
             </div>
             <div class="section__content">
                <!-- Slider main container -->
+               <!-- Если у тебя несколько слайдеров на странице, которые инициализируются с разными параметрами, то все сломается. добавь какой-нибудь класс к swiper и вешай на него js -->
                <div class="swiper">
                   <!-- Additional required wrapper -->
                   <div class="swiper-wrapper">
                      <!-- Slides -->
                      <div class="swiper-slide">
                         <div class="reason">
+                           <!-- ALT указывается всегда -->
                            <img src="assets/images/reason/reason-1.png" alt="" class="reason__img">
                            <strong class="reason__title">Ответственность</strong>
-                           <small class="reason__text">Проверяем каждый отзыв. Если заказ спорный, мы узнаем подробности.</small>
+                           <small class="reason__text">Проверяем каждый отзыв. Если заказ спорный, мы узнаем
+                              подробности.</small>
                         </div>
                      </div>
                      <div class="swiper-slide">
                         <div class="reason">
                            <img src="assets/images/reason/reason-2.png" alt="" class="reason__img">
                            <strong class="reason__title">Продуктивность</strong>
-                           <small class="reason__text">Находим специалистов, которые точно готовы взяться за дело.</small>
+                           <small class="reason__text">Находим специалистов, которые точно готовы взяться за
+                              дело.</small>
                         </div>
                      </div>
                      <div class="swiper-slide">
                         <div class="reason">
                            <img src="assets/images/reason/reason-3.png" alt="" class="reason__img">
                            <strong class="reason__title">Качество</strong>
-                           <small class="reason__text">В рейтинге мы учитываем опыт специалиста, качество работы, культуру общения и пунктуальность.</small>
+                           <small class="reason__text">В рейтинге мы учитываем опыт специалиста, качество работы,
+                              культуру общения и пунктуальность.</small>
                         </div>
                      </div>
                      <div class="swiper-slide">
                         <div class="reason">
                            <img src="assets/images/reason/reason-4.png" alt="" class="reason__img">
                            <strong class="reason__title">Скорость</strong>
-                           <small class="reason__text">Предлагаем специалистов, которые соответствуют вашему заказу - выбирайте подходящего!</small>
+                           <small class="reason__text">Предлагаем специалистов, которые соответствуют вашему заказу -
+                              выбирайте подходящего!</small>
                         </div>
                      </div>
                   </div>
@@ -256,6 +282,7 @@
                   <a href="services.html" class="btn">Посмотреть все</a>
                </div>
                <div class="section__content">
+                  <!-- Нет нужны для каждого случай создавать свою сетку - для services, для articles. В любом адектваном дизайне есть сетка, сделай один раз сетку, а потом внутри колонок располагай элементы, какие тебе нужны -->
                   <div class="services">
                      <div class="service service_popular">
                         <a href="#" class="service__card">
@@ -305,10 +332,10 @@
                            <p class="service__text">Психологи</p>
                         </a>
                      </div>
-                  </div> 
+                  </div>
                </div>
             </div>
-         </div>    
+         </div>
       </section>
       <!-- Feedback section -->
       <section class="section section_secondary">
@@ -320,6 +347,7 @@
                <div class="section__content">
                   <div class="feedback">
                      <img src="assets/images/section-img/feedback.png" alt="" class="feedback__img">
+                     <!-- Нет никакого JS, коотрый имитирует отправку. Даже если на стороне сервера ничего еще нет, можно просто написать код, который, например, на секунду выводит сообщение "Отправка", а после окно об упешной отправке. Это необходимо, иначе вернут на доработку -->
                      <form method="post" action="" class="feedback__form">
                         <input name="name" class="input" placeholder="Имя" type="text">
                         <input name="company" class="input" placeholder="Ваша компания" type="text">
@@ -339,15 +367,19 @@
             <div class="section__wrapper">
                <div class="section__heading">
                   <h2 class="section__title">Где используют наш сервис</h2>
-                  <p class="section__subtitle">Наш сервис используют по всей России, Вы можете найти нужного вам специалиста в любом городе. На данной странице вы узнаете, где найти хорошего специалиста в вашем городе, его контакты и расценки.
+                  <p class="section__subtitle">Наш сервис используют по всей России, Вы можете найти нужного вам
+                     специалиста в любом городе. На данной странице вы узнаете, где найти хорошего специалиста в вашем
+                     городе, его контакты и расценки.
                      Мы помогаем найти специалиста в городе и найти ему замену в случае необходимости.
-                     Срочный вызов специалиста на дом – это отличная возможность быстро решить возникшую проблему и не ожидать долгие часы, когда приедет ремонтная бригада.</p>
+                     Срочный вызов специалиста на дом – это отличная возможность быстро решить возникшую проблему и не
+                     ожидать долгие часы, когда приедет ремонтная бригада.</p>
                </div>
                <div class="section__content">
+                  <!-- Тут уместнее использовать вектор. Его можно встроить прямо в код страницы, и так ты уменьшишь количество запросов к серверу на один -->
                   <img src="assets/images/section-img/map.png" alt="map-img">
                </div>
             </div>
-         </div>      
+         </div>
       </section>
    </main>
    <!-- Modal -->
@@ -359,6 +391,7 @@
                <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
             </header>
             <main class="modal__content" id="modal-feedback-content">
+               <!-- Здесь у тебя нет родительского блока feedbak, но есть его элемент feedback__form. Это ошибка. Если иначае никак, то бей feedback, чтобы внутри feedback был блок form, и используй его потом отдельно где хочешь -->
                <form method="post" action="" class="feedback__form">
                   <input name="name" class="input" placeholder="Имя" type="text">
                   <input name="company" class="input" placeholder="Ваша компания" type="text">
@@ -394,16 +427,20 @@
                   </li>
                </ul>
             </nav>
-            <button class="footer__feedback btn" data-micromodal-trigger="modal-feedback"><ion-icon name="build-outline"></ion-icon></button>
+            <button class="footer__feedback btn" data-micromodal-trigger="modal-feedback">
+               <ion-icon name="build-outline"></ion-icon>
+            </button>
             <div class="footer__line"></div>
             <p class="footer__copyright text-muted">© ООО "Услуги.ру" Все права защищены 2022</p>
          </div>
       </div>
    </footer>
+   <!-- Используем сборщик и собираем все в один файл. Потом уже на реальных проектах можно будет бить на бандлы, когда на страницу добавляется js с тем кодом, который на ней используется и ничего больше, но это после того, как научишься работать с вебпаком -->
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
    <script src="assets/js/main.js"></script>
 </body>
-</html> 
+
+</html>

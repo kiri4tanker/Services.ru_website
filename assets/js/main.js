@@ -1,4 +1,6 @@
 // reasons slider
+// Вызвыай код только после того, как загрузился DOM. Гугли "event DOMContentLoaded"
+// Код оборачивай в функции - initSlider, initHamburger, иначе он быстро превратится в хаос
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
