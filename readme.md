@@ -6,9 +6,9 @@
 
 ## :hammer_and_wrench: Установка
 * Запуск проекта 
-  * ```git clone https://github.com/kiri4tanker/Services.ru_website.git```
-  * ```npm i```
-  * ```npm run start```
+  * ```git clone https://github.com/kiri4tanker/Services.ru_website.git``` - Скачивание репозитория
+  * ```npm i``` - Установка пакетов
+  * ```npm run start``` - Сборка и запуск сервера
 
 ## :keyboard: Команды
 * ```npm run start``` - Сборка и запуск сервера
