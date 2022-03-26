@@ -12,6 +12,7 @@ mix
 		output: ''
 	})
 	.copyDirectory('src/icons/*', 'dist')
+	.copy('src/.htaccess', 'dist')
 // server
 
 mix
