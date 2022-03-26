@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "hot": "mix && mix watch --hot",
-    "prod": "mix --production"
+    "start": "mix && mix watch --hot",
+    "build": "mix --production"
   },
   "keywords": [],
   "author": "hollywoodpig",
