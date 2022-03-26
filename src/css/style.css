@@ -403,6 +403,9 @@ img {
    position: relative;
    z-index: 1;
 }
+#section-search {
+   background-image: url('../img/bg/search-bg.jpg');
+}
 .section_background::before {
    content: "";
    position: absolute;
@@ -552,7 +555,7 @@ textarea.input {
    align-items: center;
    gap: var(--gutter);
 }
-.feedback__form {
+.feedback-form {
    display: grid;
    gap: var(--gutter);
    justify-items: start;
@@ -915,6 +918,11 @@ ion-icon {
 .modal__close {
    background: transparent;
    border: none;
+   cursor: pointer;
+   transition: opacity var(--time);
+}
+.modal__close:hover {
+   opacity: 0.8;
 }
 .modal__header .modal__close:before { content: "\2715"; }
 .modal__content {

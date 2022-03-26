@@ -1,0 +1,7 @@
+/* libs */
+@import '~swiper/css';
+@import '~swiper/css/pagination';
+@import '~normalize.css/normalize.css';
+/* styles */
+@import 'style.css';
+@import 'media.css';
