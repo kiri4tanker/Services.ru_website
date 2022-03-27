@@ -7,6 +7,7 @@
 * Сделать вектор на ```map```
 * Добавить 2 блока ```user.html```
 * Переходить на next-level
+* Переписать Swiper из css в js
 
 ## :bulb: Services.ru_website
 * использование [Laravel-mix](https://laravel-mix.com/)
