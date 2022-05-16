@@ -10,10 +10,10 @@
 * Переписать Swiper из css в js
 
 ## :bulb: Services.ru_website
-* использование [Laravel-mix](https://laravel-mix.com/)
-* используется [БЭМ](https://ru.bem.info/)-структура
-* используется [Swiper](https://swiperjs.com/) для слайдеров
-* используется [Micromodal.js](https://micromodal.vercel.app/) для модальных окон
+* использование [Laravel-mix](https://laravel-mix.com/) - сборщик
+* используется [БЭМ](https://ru.bem.info/) - структура
+* используется [Swiper](https://swiperjs.com/) - для слайдеров
+* используется [Micromodal.js](https://micromodal.vercel.app/) - для модальных окон
 
 ## :hammer_and_wrench: Установка
 * Запуск проекта 
